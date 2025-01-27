@@ -1,0 +1,1 @@
+npx tailwindcss -i netflix_test.css -o ./src/output.css --watch

@@ -1,0 +1,150 @@
+*{
+    margin:5px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: blue;
+    text-align: left;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+   color: red;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-size: 20px; 
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 20px;
+} 
+.nav-links li{
+    list-style: none;
+}
+.burger div{
+    height: 3px;
+    width: 20px;
+    background-color: white;
+}
+.nav-item {
+    float: left;
+  }
+  
+  .nav-item a {
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-item.active {
+    background-color: #4CAF50;
+  }
+@media screen and (max-width: 768px){
+    .nav-links{
+        display: none;
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: brown;
+    }
+    .burger{
+        display: block;
+    }
+    .burger div{
+        margin: 5px;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    
+}
+.john{
+    height:100%;
+    width:100%;
+    background-color: sandybrown;
+    border-radius: 10px;
+}
+.Jgvy{
+    height:100%;
+    width:100%;
+    background-color:aquamarine;
+    border-radius: 10px;
+}
+.JErw{
+    height:100%;
+    width:100%;
+    background-color:blueviolet;
+    border-radius: 10px;
+}
+.container{
+    background-color: rgb(97, 96, 113);
+    text-align: center;
+    padding: 10px;
+    height: 70%;
+    width: 70%;
+    position: center;
+    margin: auto;
+    border-radius: 10px;
+}
+.form{
+    text-align: left;
+    box-sizing: border-box;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+input[type=submit] {
+    background-color: #04AA6D;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+} 
+.foot{
+    text-align: center;
+    background-color: greenyellow;
+}
+.author{
+    text-align: center;
+    background-color: greenyellow;
+}
+.scrollbutton {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40%;
+    background-color: #1b5490;
+    color: #e8e8e8;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.scrollbutton:hover {
+    background-color: #2d6418;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+  
